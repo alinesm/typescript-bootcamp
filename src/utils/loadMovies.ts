@@ -7,12 +7,13 @@ interface MoviesFromApiDTO {
     duration: number;
 }
 
-function loadMovies(data: MoviesFromApiDTO[]): Omit<Movie, "ratings">[] {
+function loadMovies(data: MoviesFromApiDTO[]): Movie[] {
     return data.map((movie) => ({
         id: movie.id,
         name: movie.title,
         directedBy: movie.directed_by,
         duration: movie.duration,
+        ratings: []
     }))
 }
 

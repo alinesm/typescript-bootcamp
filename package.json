@@ -1,7 +1,6 @@
 {
   "name": "typescript-starter",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "ts-node ./src/index.ts"
@@ -18,5 +17,14 @@
     "@types/inquirer": "^8.2.1",
     "axios": "^0.27.2",
     "inquirer": "^8.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinesm/typescript-bootcamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alinesm/typescript-bootcamp/issues"
+  },
+  "homepage": "https://github.com/alinesm/typescript-bootcamp#readme",
+  "description": ""
 }
